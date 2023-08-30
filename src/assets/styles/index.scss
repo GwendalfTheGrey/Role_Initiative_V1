@@ -1,0 +1,69 @@
+@use 'base';
+@use 'debug';
+
+// ———————————————————— Variables ————————————————————
+:root{
+    // Utilities
+        // Font-Size
+        --fs-300: .875rem;
+        --fs-400: 1rem;
+        --fs-500: 1.125rem;
+        --fs-600: 1.5rem;
+        --fs-700: 1.875rem;
+
+        // Color
+            // Project Specific Colors
+            --fantasy-accent-clr: #ff8433;
+            --fantasy-base-clr: #fff8f3;
+            --sf-accent-clr: #5100ff;
+            --sf-base-clr: #fafeff;
+            --noir-accent-clr: #30ffa9;
+            --noir-base-clr: #f6fffc;
+
+            // General Purpose Colors
+            --primary-clr: #000c21;
+            --secondary-clr: #0d203d;
+            --accent-clr: var(--fantasy-accent-clr);
+            --base-clr: var(--fantasy-base-clr);
+
+        // Box-Shadow
+        --nav-box-shadow: 0 4 20 0 #000c21;
+
+        // Padding
+            // Padding-Btn
+            --p-inline-btn: 1.875rem;
+            --p-block-btn: 1rem;
+
+            // Padding-Block-Corpus
+            --p-top-corp: 1em;
+
+        //Margin
+            // Margin-Nav
+            --m-nav: 1.125rem 1.25rem;
+
+            //Margin-Section
+            --m-section: 3.375rem 1.25rem;
+
+            //Margin-Block-Mention
+            --m-block-mention: .875rem;
+
+        //Line-Height-Title
+            --l-height-ttl: 1.125em;
+
+        //Line-Height-Corpus
+            --l-height-corp: 1.375em;
+}
+
+// ———————————————————— Composition ————————————————————
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+// ———————————————————— Utilities ————————————————————
+.txt-clr {
+    color: var(--base-clr);
+}

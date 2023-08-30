@@ -1,0 +1,39 @@
+// Classes used to debug
+    .debug-1 {
+        background-color: red;
+        color: rgb(32, 32, 32);
+        border: .5rem solid cyan;
+        font-size: 2rem;
+    }
+    
+    .debug-2 {
+        background-color: greenyellow;
+        color: rgb(32, 32, 32);
+        border: .5rem solid magenta;
+        font-size: 2rem;
+    }
+    
+    .debug-3 {
+        background-color: blue;
+        color: rgb(32, 32, 32);
+        border: .5rem solid yellow;
+        font-size: 2rem;
+    }
+
+    .debug-4 {
+        background-color: black;
+        color: white;
+        border: .5rem solid yellow;
+        font-size: 2rem;
+    }
+
+    // ———————————————————— Testing area ————————————————————
+        // .user-icon-wrapper{
+        //     position: relative;
+        // }
+
+        // .user-icon-dice{
+        //     position: absolute;
+        //     bottom: 0;
+        //     filter: blur(1rem);
+        // }
