@@ -17,4 +17,14 @@ a, img {
 
 body {
     background-color: var(--primary-clr);
+    font-family: var(--corpus-ff);
+    font-size: var(--fs-300);
+    color: var(--base-clr);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--title-ff);
+    font-weight: var(--title-fw);
 }
