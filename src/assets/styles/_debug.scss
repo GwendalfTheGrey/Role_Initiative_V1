@@ -28,13 +28,10 @@
     }
 
     // ———————————————————— Testing area ————————————————————
-        // .user-icon-wrapper{
-        //     position: relative;
+        // .test-shadow {
+        //     filter: drop-shadow(0 0 1rem white);
         // }
 
-        // .user-icon-dice{
-        //     position: absolute;
-        //     bottom: 0;
-        //     z-index: -1;
-        //     filter: blur(.25rem);
-        // }
+        .fill {
+            fill: blue;
+        }

@@ -16,6 +16,8 @@ a, img {
 }
 
 body {
+    scroll-behavior: smooth;
+    min-height: 100vh;
     background-color: var(--primary-clr);
     font-family: var(--corpus-ff);
     font-size: var(--fs-300);

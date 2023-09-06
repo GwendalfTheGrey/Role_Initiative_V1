@@ -4,7 +4,7 @@ import UserIcon from './UserIcon';
 
 export default function Navbar() {
     return (
-            <nav className='navbar-top d-flex jcsb aifs'>
+            <nav className='navbar d-flex jcsb aifs'>
                 <Logo />
                 {/* <ul> */}
                     {/* <li><a className='nav-link txt-clr'href="">Connexon/Inscription</a></li> */}
