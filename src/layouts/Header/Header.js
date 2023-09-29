@@ -1,9 +1,9 @@
-import Navbar from "./Navbar";
+import NavBar from "../NavBar/NavBar";
 
 export default function Header() {
     return (
         <header className="primary-nav">
-            <Navbar/>
+            <NavBar />
         </header>
-    );
+    )
 }

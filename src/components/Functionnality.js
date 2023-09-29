@@ -2,8 +2,8 @@ export default function Functionnality({functionnalities}) {
     return (
         
 // {`section-spacing ${functionnality.id % 2 === 0 && 'even-bg'}`}
-        functionnalities.map((functionnality) => (
-        <article className={`section-spacing article-spacing article-paragraph ${functionnality.id % 2 === 0 && 'even-bg'}`}>
+        functionnalities.map((functionnality, index) => (
+        <article key={index} className={`section-spacing article-spacing article-paragraph ${functionnality.id % 2 === 0 && 'even-bg'}`}>
             <h2 className='article-title'>
                 {functionnality.title}
             </h2>

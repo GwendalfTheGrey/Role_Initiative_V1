@@ -1,5 +1,5 @@
-import DiceBg from "./DiceBg";
-import Functionnalities from "./Functionnalities";
+import DiceBg from "../../components/DiceBg";
+import Functionnalities from "../../components/Functionnalities";
 
 export default function Main() {
     return (
@@ -38,5 +38,5 @@ export default function Main() {
                 </article>
             </section>
         </main>
-    );
+    )
 }

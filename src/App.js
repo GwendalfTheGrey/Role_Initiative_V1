@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import styles from './App.module.scss';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Inscription from './components/Inscription';
-import Main from './components/Main';
+import Header from './layouts/Header/Header';
+import Inscription from './layouts/Forms/Inscription';
+import Main from './layouts/Main/Main';
+import Footer from './layouts/Footer/Footer';
 
 function App() {
 
@@ -22,12 +21,11 @@ function App() {
   }
 
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <Footer/>
-      {/* <Inscription addUser={addUser} /> */}
-    </div>
+    <>
+    <Header />
+    <Main />
+    <Footer />
+    </>
   );
 }
 

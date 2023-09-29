@@ -1,10 +1,5 @@
-import logoF from '../assets/img/logo-f.svg'
-import logoFDice from '../assets/img/logo-f-dice.svg'
-
 export default function Logo() {
     return (
-        //     <a className='logo' href=""><img src={logoF} alt="Logo de Role Initiative" /></a>
-            //     <a className='logo' href=""><img className='blur-element blur-logo' src={logoFDice} /></a>
             <a href='' className='blur-wrapper' >
                 <svg className='logo logo-text' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 139">
                     <g>

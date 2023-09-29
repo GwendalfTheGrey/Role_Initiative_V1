@@ -1,0 +1,76 @@
+:root{
+    // Utilities
+        // Font
+            // Font-Family
+            --title-ff: 'Archivo Black', sans-serif;
+            --corpus-ff: 'Inter', sans-serif;
+
+            // Font-Weight
+            --title-fw: 900, 400;
+            --nav-link-fw: 600;
+
+            // Font-Size
+            --fs-100: .625rem;
+            --fs-300: .875rem;
+            --fs-400: 1rem;
+            --fs-500: 1.125rem;
+            --fs-600: 1.25rem;
+            --fs-700: 1.5rem;
+            --fs-800: 1.75rem;
+
+        // Color
+            // Project Specific Colors
+            --fantasy-accent-clr: rgb(255, 132, 51);
+            --fantasy-base-clr: #fff8f3;
+            --sf-accent-clr: #5100ff;
+            --sf-base-clr: #fafeff;
+            --noir-accent-clr: #30ffa9;
+            --noir-base-clr: #f6fffc;
+
+            // General Purpose Colors
+            --primary-clr: #000c21;
+            --secondary-clr: #0d203d;
+            --accent-clr: var(--fantasy-accent-clr);
+            --base-clr: var(--fantasy-base-clr);
+
+        // Box-Shadow
+            --nav-box-shadow: 0 4px 20px 3px var(--secondary-clr);
+
+        // Blur
+            --logo-blur: .25rem;
+            // --user-icon-blur: .25rem;
+            --primary-icon-blur: 1rem;
+            --secondary-icon-blur: .5rem;
+            --tertiary-icon-blur: .125rem;
+            --bulletpoint-blur: .0625rem;
+
+        // Padding
+            // Padding-Nav
+            --p-nav: 1.125rem 1.25rem;
+            
+            //Padding-Section
+            --p-section: 3.375rem;
+
+            // Padding-Article
+            --p-article: 1.25rem;
+
+            // Padding-Btn
+            --p-btn: 0.375rem 1.75rem;
+
+            // Padding-Block-Corpus
+            --p-top-corp: 1em;
+
+            //Padding-Block-Mention
+            --p-block-mention: .875rem;
+            
+        //Margin
+            // Center
+            --center-x: 0 auto;
+            --center-y: 0 auto;
+
+        //Line-Height-Title
+            --l-height-ttl: 1.125em;
+
+        //Line-Height-Corpus
+            --l-height-corp: 1.375em;
+}
